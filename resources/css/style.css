@@ -1,0 +1,60 @@
+.chart-1 {
+  width: 800px;
+	height: 500px;
+}
+
+.chart-1 .bar {
+  fill: #80cbc4;
+}
+
+.chart-1 text {
+  font-size: 12px;
+  fill: #fff;
+}
+
+.chart-1 path {
+  stroke: gray;
+}
+
+.chart-1 line {
+  stroke: gray;
+}
+
+.chart-1 line#limit {
+  stroke: #FED966;
+  stroke-width: 3;
+  stroke-dasharray: 3 6;
+}
+
+.chart-1 .grid path {
+  stroke-width: 0;
+}
+
+.chart-1 .grid .tick line {
+  stroke: #9FAAAE;
+  stroke-opacity: 0.3;
+}
+
+.chart-1 text.divergence {
+  font-size: 14px;
+  fill: #2F4A6D;
+}
+
+.chart-1 text.value {
+  font-size: 14px;
+}
+
+.chart-1 text.title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.chart-1 text.label {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.chart-1 text.source {
+  font-size: 10px;
+}
+
